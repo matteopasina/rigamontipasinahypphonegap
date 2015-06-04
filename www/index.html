@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="RoutingApp">
+
 <head>
     <title>Big Gym</title>
     <meta charset="utf-8">
@@ -13,24 +14,13 @@
     <link rel="stylesheet" href="css/courses.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/sidebar.css">
-<script>
-		function onBodyLoad() {		
-			document.addEventListener("deviceready", onDeviceReady, false);
-		}
-
-		function onDeviceReady()
-		{
-			console.log('start');
-			angular.module('RoutingApp', [], function($routeProvider, $locationProvider) {
-	
-			});
-            angular.bootstrap(document, ['RoutingApp']);
-		}
-	</script>
+    <script>
+        app.initialize();
+    </script>
 </head>
 
 
-<body onload="onBodyLoad()">
+<body>
     <!-- Header-->
 
     <div class="mainContainer">
