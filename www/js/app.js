@@ -3,7 +3,7 @@ var app=    angular.module('RoutingApp', ['ngRoute','ui.bootstrap','smoothScroll
 app.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: '/views/Home.html'
+            templateUrl: 'Home.html'
         })
         .when('/CourseHome/', {
             controller: 'CourseHomeController',
