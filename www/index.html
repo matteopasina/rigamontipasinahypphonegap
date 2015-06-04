@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="RoutingApp">
+<html lang="en">
 
 
 <head>
@@ -19,7 +19,7 @@
 </head>
 
 
-<body>
+<body ng-app="RoutingApp">
     <!-- Header-->
 
     <div class="mainContainer">
@@ -59,13 +59,7 @@
 
     <!-- Maps -->
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script type="text/javascript">
-        document.addEventListener('deviceready', function onDeviceReady() {
-            angular.bootstrap(document, ['RoutingApp']);
-        }, false);
 
-        var app = angular.module('RoutingApp', []);
-    </script>
 </body>
 
 </html>
