@@ -59,12 +59,8 @@
 
     <!-- Maps -->
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script type="text/javascript">
-        document.addEventListener('deviceready', function onDeviceReady() {
-            angular.bootstrap(document, ['RoutingApp']);
-        }, false);
-
-        var app=    angular.module('RoutingApp', ['ngRoute','ui.bootstrap','smoothScroll']);
+    <script>
+        angular.bootstrap(document, ['ngView']);
     </script>
 </body>
 
