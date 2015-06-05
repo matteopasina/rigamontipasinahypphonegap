@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="RoutingApp">
+<html lang="en">
 
 <head>
     <title>Big Gym</title>
@@ -34,9 +34,10 @@
     <!-- Include the AngularJS routing library -->
     <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/index.js"></script>
     <script type="text/javascript">
-        app.initialize();
+        angular.element(document).ready(function() {
+            angular.bootstrap(document,['RoutingApp']);
+        });
     </script>
 
     <!-- Scroll-->

@@ -1,4 +1,4 @@
-var app = {
+app = {
     initialize: function() {
         this.bindEvents();
     },
@@ -8,7 +8,7 @@ var app = {
 
     onDeviceReady: function() {
         angular.element(document).ready(function() {
-            angular.bootstrap(document);
+            angular.bootstrap(document,['RoutingApp']);
         });
     },
 };
