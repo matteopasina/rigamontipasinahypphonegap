@@ -1,4 +1,4 @@
-var app=angular.module('RoutingApp', ['ngRoute','ui.bootstrap','smoothScroll']);
+var app=angular.module('RoutingApp', ['ngRoute','ui.bootstrap','smoothScroll','ngCordova']);
 
 app.config(function ($routeProvider) {
     $routeProvider
